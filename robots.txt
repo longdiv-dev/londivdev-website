@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://longdiv-dev.com/sitemap.xml
+
+# Disallow admin or private directories if any exist in the future
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
