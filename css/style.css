@@ -197,6 +197,40 @@ h3 {
     line-height: 1.7;
 }
 
+.app-download-qr {
+    margin-top: 2.5rem;
+}
+
+.app-download-qr a {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.app-download-qr a:hover {
+    transform: translateY(-4px);
+}
+
+.qr-code-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    border: 4px solid white;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.qr-text {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: var(--text);
+    opacity: 0.8;
+    font-weight: 500;
+}
+
 /* Updated Modern Features List */
 .features-list {
     list-style: none;
